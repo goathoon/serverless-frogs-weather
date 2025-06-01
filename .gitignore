@@ -1,0 +1,40 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Java build output
+/build/
+!/src/main/**/build.gradle
+!/src/test/**/build.gradle
+
+# Gradle
+.gradle/
+build/
+
+# Gradle Wrapper
+!gradlew
+!gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test reports and coverage
+/test-results/
+*.exec
+*.ec
+jacoco.exec
+*.coverage
+
+# Environment / Secrets
+.env
+*.env.*
