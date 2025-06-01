@@ -15,4 +15,19 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
     implementation 'com.fasterxml.jackson.core:jackson-core:2.17.0'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.17.0'
+
+
+    /**
+     * 테스트 라이브러리
+     */
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    testImplementation "org.assertj:assertj-core:3.27.3"
+    testImplementation 'org.testcontainers:testcontainers'
+    testImplementation 'org.testcontainers:localstack:1.19.3'
+}
+
+test {
+    useJUnitPlatform()
 }
